@@ -1,0 +1,10 @@
+{
+  "name": "Trainit",
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "Scope": "/",
+  "start_url": "/index.html",
+  "icons": null,
+  "splash_pages": null
+}

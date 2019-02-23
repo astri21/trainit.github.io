@@ -1,0 +1,152 @@
+/*
+2 css destop dan mobile
+*/
+body
+{
+	font-family: 'Open Sans', sans-serif;
+}
+#wrapper
+{
+	width: 100%;
+	background:#202020;
+}
+
+/*untuk menu*/
+.navbar-side
+{
+	background-color: #202020;
+}
+
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+/*navbar atas*/
+.navbar-default
+{
+	background-color: #337ab7;
+	border-color:#31708f; 
+}
+.navbar-default .navbar-brand
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-brand:hover
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-brand:visited
+{
+	color: #f4f4f4;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+	background-color: #f4f4f4;
+}
+
+/*user pd navbar side*/
+.navbar-side .user
+{
+	padding: 20px;
+	text-align: center;
+}
+
+.navbar-side .user img
+{
+	width: 40%;
+}
+.navbar-side .user h3
+{
+	color: #f4f4f4;
+	font-size: 14px;
+	font-weight: 600;
+}
+.navbar-side .user p
+{
+	color: #f2f2f2;
+	font-size: 12px;
+}
+.navbar-side ul li
+{
+	/*garis pembatas bawah bootem*/
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+
+/*tulisan menu karena milik a*/
+.navbar-side ul li a
+{
+	color: #fff;
+}
+.navbar-side ul li a:hover
+{
+	color: #202020;
+}
+
+/*css drdown menu*/
+.navbar-side .tr-tree .tr-tree-menu
+{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: none;
+}
+.navbar-side .tr-tree > .tr-tree-menu li a
+{
+	padding: 10px;
+	display: block;
+	font-size: 13px;
+}
+.navbar-side .tr-tree > .tr-tree-menu li a:hover
+{
+	background: #f4f4f4;
+	text-decoration: none;
+}
+.navbar-side .tr-tree > .tr-tree-menu li.active a
+{
+	background: #f4f4f4;
+	color: #222;
+	font-weight: bold;
+}
+.navbar-side ul li a:focus
+{
+	color: #202020;
+} 
+#page-wrapper 
+{
+	/*jarak kedalam*/
+	padding: 15px;
+	background:  #f3f3f3;
+}
+#page-inner
+{
+	background: #fff;
+	padding: 15px;
+}
+
+/*css ke destop*/
+@media (min-width: 768px)
+{
+	#page-wrapper
+	{
+		/*jarak ke atas kanan bawah kiri*/
+		margin: 0 0 0 260px;
+		padding: 15px;
+		min-height: 1030px;
+	}
+	#page-inner
+	{
+		height:auto;
+	}
+	.navbar-side ul li:hover a
+	{
+		color: #202020;
+	}
+	.navbar-side{
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+		min-height: 1030px;
+	}
+}  
